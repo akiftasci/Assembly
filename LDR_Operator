@@ -1,0 +1,8 @@
+aa		DCD		2
+bb		DCD		3
+		
+		LDR		r0, =aa
+		LDR		r1, =bb
+		LDR		r2,  [r0]
+		LDR		r3,  [r1]
+		ADD		r4,r2,r3
