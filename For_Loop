@@ -1,0 +1,5 @@
+//for
+ MOV R4, #0x0A // R4 = 0x0A
+Loop1:
+ ADD R4, #-1 // R4 = R4 - 1
+ BPL Loop1
