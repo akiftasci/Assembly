@@ -1,0 +1,9 @@
+//if else
+ MOV R4, #0x05 // R4 = 0x05
+ CMP R4, #0x06
+ BHS Greater // Branch if higher or same
+ ADD R4, #-1 // R4 = R4 - 1
+ B Done1
+Greater:
+ ADD R4, #1 // R4 = R4 + 1
+Done1:
